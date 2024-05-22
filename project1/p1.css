@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 3vw;
+}
+#box h1{
+    font-size:5vw;
+}
+
+#input{
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 50px;
+    height: 10vh;
+    width: 40vw;
+}
+#input-btn{
+    font-size: 40px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+}
+#entry{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#entry1{
+    height: 10vh;
+    width: 40vw;
+    background-color: aliceblue;
+    font-size: 25px;
+    align-content: center;
+    padding-left: 10px;
+}
+#del-icon{
+    font-size: 48px;
+    align-content: center;
+    cursor: pointer;
+}
