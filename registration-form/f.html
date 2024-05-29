@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="f.css">
+    <script src="https://kit.fontawesome.com/d494fd5647.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="box1">
+        <form class="box2" >
+            <h1 style="text-align: center; font-size: 30px;">Registration Form</h1>
+    
+            <div class="image">
+            <img src="profile.jpg" alt="" id="profile-pic">
+            <input type="file" accept="image/jpg ,image/jpeg" id="to-upload">
+            <label for="to-upload" id="profile">Upload Image</label>
+            </div>
+
+            <div id="fname">
+            <p>First Name:</p>
+            <input id="Input1" type="text" required>
+            </div>
+        
+            <div id="lname">
+            <p>Last Name:</p>
+            <input id="Input2" type="text">
+            </div>
+    
+            <div id="date">
+            <p>Date Of Birth:</p>
+            <input type="date" >
+            </div>
+    
+            <div id="category">
+                <p>Gender:</p>
+                <input type="radio" id="m-gen" name="gender" >
+                <label for="m-gen">Male   </label>
+                <input type="radio" id="f-gen" name="gender" >
+                <label for="f-gen">  Female  </label>
+                <input type="radio" id="gay" name="gender">
+                <label for="gay">Rather not Say</label>
+            </div>
+
+            <div id="Email">
+            <p>Email:</p>
+            <input id="Input4" type="email" required>
+            </div>
+             
+            <div id="password-field">
+                <div >
+                    <p>New Password:</p>
+                    <input id="p1" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{3,}" oninvalid="this.setCustomValidity('must contain uppercase,lowercase characters and numbers')"
+                    onvalid="this.setCustomValidity('')" required>
+                    <i id="eyeslash" style="position: absolute; left: 43%; margin-top: 6px;"  class="fa-solid fa-eye-slash"></i>
+                </div>  
+                <div >
+                    <p>Confirm Password:</p>
+                    <input id="p2" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{3,}" oninvalid="this.setCustomValidity('must contain uppercase,lowercase characters and numbers')"
+                    onvalid="this.setCustomValidity('')" required>
+                    <i id="eyeslash" style="position: absolute; right: 5%; margin-top: 6px;"  class="fa-solid fa-eye-slash"></i>
+                    <p id="redtext" style="font-size: 15px;color: red; display: none;">*password do not match</p>
+                </div>
+            </div>
+        
+            <div id="details">
+            <p>Contact Details:</p>
+            <span>
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <input id="Input7" type="tel" pattern="[0-9]{10}"  maxlength="10" required>
+            </span>
+            </div>
+
+           <div id="check"> 
+            <input id="checkbox" type="checkbox" required style="width: 15px; height: 15px;">
+            <label for="checkbox" id="check"> I agree to all terms & conditions</label>
+           </div>
+
+            <input type="submit" value="Submit" id="btn">
+        </form>
+    </section>
+    <script src="f.js"></script>
+</body>
+</html>

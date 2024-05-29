@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+input{
+    padding: 5px;
+    padding-right: 40px;
+}
+.box1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.box2{
+    position: relative;
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.box2 input{
+    font-size: 20px;
+}
+
+#btn{
+   width: 100px;
+}
+.image{
+    position: absolute;
+    right: 10%;
+    top: 14%;
+    width: 150px;
+    height: 150px;
+    font-size: 17px;
+    text-align: center;
+}
+#profile{
+    display: block;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(70, 18, 118);
+    cursor: pointer;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+}
+#to-upload{
+    display: none;
+}
+
+#details input{
+    padding-left: 30px;
+}
+#details i{
+    position: absolute;
+    margin: 7px 5px;
+}
+
+#password-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+

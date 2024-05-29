@@ -20,10 +20,10 @@ function saveit(){
     icon.id = "del-icon";          //2
     entry.appendChild(icon);       //2
     
-    // const cross = document.createElement("button");//1
-    // cross.id = "del-icon";     //1
-    // cross.appendChild(icon);   //1
-    // entry.appendChild(cross);  //1   
+   //  const cross = document.createElement("button");//1
+   //  cross.id = "del-icon";     //1  "everything sorted properties button pr lgae or iconpr click krega to kaise chlega code dude"
+   //  cross.appendChild(icon);   //1
+   //  entry.appendChild(cross);  //1   
     }
 
    else

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.c2{
+    border: solid black 1px;
+    padding:0px 10px 30px 10px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    font-size: 17px;
+    margin-block: 20px;
+}
+.length-container{
+    margin-block:10px;
+}
+
+/* .display-container{
+    display: flex;
+} */
+input{
+    font-size: 16px;
+}
+
+.generateButton{
+   font-size: 15px;
+   font-weight: 550;
+    padding: 8px;
+    padding-block: 3px;
+}

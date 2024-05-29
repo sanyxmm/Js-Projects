@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: white;
+    border-radius: 12px;
+    padding: 28px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box input{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    background-color:aliceblue;
+    padding: 12px 16px;
+    border-radius: 14px;
+}
+.search-box button{
+    width: 46px;
+    height: 46px;
+    background-color: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.weather-body{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.weather-body img {
+    width: 60%;
+}
+
+.weather-box {
+    margin-block: 20px;
+    text-align: center;
+}
+
+.current-location{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.weather-box .temperature{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+
+.weather-box .temperature sup{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    
+}
+
+
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 15px;
+}
+
+.wind , #Humidity{
+    display: flex;
+    align-items: center;
+}
+#Humidity{
+    margin-left: 20px;
+}
+
+.wind{
+    margin-right: 20px;
+}
+
+.weather-details i{
+    font-size: 36px;
+}
+
+.weather-details .text{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.text span{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.not-found
+{
+    display: none;
+    font-weight: 600;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+.not-found-img{
+    padding-top: 20px;
+    width: 80%;
+}
+
+.heading-style {
+    font-size: 28px; 
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-family:Poetsen One, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+.heading-style button {
+    background-color: white;
+    font-size: 20px;
+    color: royalblue;
+}
+
+.location{
+    display: none;
+    margin-block: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.location img{
+    width:20%;
+}
+
+.accessBtn{
+    font-size: 13px;
+    border: solid black 1px;
+    margin-block: 8px;
+    padding: 4px 5px 4px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}

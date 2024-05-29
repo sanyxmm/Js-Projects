@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-size: 50px;
+    font-weight:500
+}
+#home{
+    display: none;
+}
+#About{
+    display: none;
+}
+#Contact{
+    display: none;
+}
+#list{
+    display: none;
+}
+
+#menu{
+    display: block;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+}
