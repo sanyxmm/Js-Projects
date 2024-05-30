@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 46, 46);
+}
+
+
+.front{
+    border-radius: 10px ;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 470px;
+    width: 320px;
+}
+.front input{
+    font-size: 30px;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 6px; 
+}
+.front div button{
+    font-size: 45px;
+    width: 70px;
+    height: 70px;
+}
