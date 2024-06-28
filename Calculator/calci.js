@@ -32,3 +32,13 @@ del.onclick = ()=>{
 equal.onclick = ()=>{
   input.value=eval(input.value);
 }
+
+const black = document.querySelector('.blackbox');
+const inputt = document.querySelector('.blackbox input');
+const button = document.querySelector('.submit');
+button.onclick = ()=>{
+  
+   if(inputt.value==='abcd')
+    black.style.display = "none";
+    console.log(input.value);
+}
